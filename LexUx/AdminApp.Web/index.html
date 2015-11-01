@@ -9,7 +9,49 @@
     <link href="Content/bootstrap.css" rel="stylesheet" />
 </head>
 <body>
-    <h1>Hola with bootstrap</h1>
+    <!-- 
+        bootstrap nav bar
+        TODO: this must go to an include statement in angular, to clean a little bit. 
+    -->
+    <nav class="navbar navbar-default navbar-static-top">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="https://getbootstrap.com/examples/navbar-static-top/#">Project name</a>
+            </div>
+            <div id="navbar" class="navbar-collapse collapse">
+                <ul class="nav navbar-nav">
+                    <li class="active"><a href="https://getbootstrap.com/examples/navbar-static-top/#">Home</a></li>
+                    <li><a href="https://getbootstrap.com/examples/navbar-static-top/#about">About</a></li>
+                    <li><a href="https://getbootstrap.com/examples/navbar-static-top/#contact">Contact</a></li>
+                    <li class="dropdown">
+                        <a href="https://getbootstrap.com/examples/navbar-static-top/#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Dropdown <span class="caret"></span></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="https://getbootstrap.com/examples/navbar-static-top/#">Action</a></li>
+                            <li><a href="https://getbootstrap.com/examples/navbar-static-top/#">Another action</a></li>
+                            <li><a href="https://getbootstrap.com/examples/navbar-static-top/#">Something else here</a></li>
+                            <li role="separator" class="divider"></li>
+                            <li class="dropdown-header">Nav header</li>
+                            <li><a href="https://getbootstrap.com/examples/navbar-static-top/#">Separated link</a></li>
+                            <li><a href="https://getbootstrap.com/examples/navbar-static-top/#">One more separated link</a></li>
+                        </ul>
+                    </li>
+                </ul>
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a href="https://getbootstrap.com/examples/navbar/">Default</a></li>
+                    <li class="active"><a href="./Static Top Navbar Example for Bootstrap_files/Static Top Navbar Example for Bootstrap.html">Static top <span class="sr-only">(current)</span></a></li>
+                    <li><a href="https://getbootstrap.com/examples/navbar-fixed-top/">Fixed top</a></li>
+                </ul>
+            </div><!--/.nav-collapse -->
+        </div>
+    </nav>
+
+    <h1>hola mundo</h1>
 
     <!-- vendor js -->
     <script src="Scripts/jquery-2.1.4.js"></script>
