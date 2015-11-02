@@ -4,23 +4,26 @@
     display: none !important;
 }
 
+* {
+    font-family: 'Segoe UI', Arial, Helvetica, sans-serif;
+    -webkit-font-smoothing: antialiased;
+}
+
 /*#region Splash page*/
 
 #lx-splash-page {
     z-index: 99999 !important;
-
     position: fixed;
-        top: 0;
-        left: 0;
-        width: 100%;
-        height: 100%;
-        background-color: #333;
-        opacity: .9;
-        pointer-events: auto;
-
-        -moz-backface-visibility: hidden;
-        -webkit-backface-visibility: hidden;
-        backface-visibility: hidden;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #333;
+    opacity: .9;
+    pointer-events: auto;
+    -moz-backface-visibility: hidden;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
 }
 
     #lx-splash-page .lx-splash-message {
@@ -47,7 +50,6 @@
         -o-transition: 0.2s linear all;
         -webkit-transition: 0.2s linear all;
         transition: 0.2s linear all;
-
         display: block !important;
         opacity: 1;
     }
@@ -55,4 +57,41 @@
     #lx-splash-page.ng-hide {
         opacity: 0;
     }
+/*#endregion*/
+
+/*#region Angular ng-include, ng-view, ng-repeat shuffle animations*/
+
+.shuffle-animation.ng-enter,
+.shuffle-animation.ng-leave {
+    position: relative;
+}
+
+.shuffle-animation.ng-enter {
+    -moz-transition: ease-out all 0.3s 0.4s;
+    -o-transition: ease-out all 0.3s 0.4s;
+    -webkit-transition: ease-out all 0.3s 0.4s;
+    transition: ease-out all 0.3s 0.4s;
+    left: 2em;
+    opacity: 0;
+}
+
+    .shuffle-animation.ng-enter.ng-enter-active {
+        left: 0;
+        opacity: 1;
+    }
+
+.shuffle-animation.ng-leave {
+    -moz-transition: 0.2s ease-out all;
+    -o-transition: 0.2s ease-out all;
+    -webkit-transition: 0.2s ease-out all;
+    transition: 0.2s ease-out all;
+    right: 0;
+    opacity: 1;
+}
+
+    .shuffle-animation.ng-leave.ng-leave-active {
+        right: 2em;
+        opacity: 0;
+    }
+
 /*#endregion*/
