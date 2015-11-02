@@ -1,0 +1,58 @@
+﻿/* This helps the ng-show/ng-hide animations start at the right place. */
+/* Since Angular has this but needs to load, this gives us the class early. */
+.ng-hide {
+    display: none !important;
+}
+
+/*#region Splash page*/
+
+#lx-splash-page {
+    z-index: 99999 !important;
+
+    position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-color: #333;
+        opacity: .9;
+        pointer-events: auto;
+
+        -moz-backface-visibility: hidden;
+        -webkit-backface-visibility: hidden;
+        backface-visibility: hidden;
+}
+
+    #lx-splash-page .lx-splash-message {
+        text-align: center;
+        margin: 20% auto 0 auto;
+        font-size: 400%;
+        font-family: 'Segoe UI', Arial, Helvetica, sans-serif;
+        font-weight: normal;
+        color: #ffffff;
+        text-shadow: 2px 2px #000000;
+        text-shadow: 2px 2px rgba(0, 0, 0, 0.15);
+        text-decoration: none;
+        padding: 0;
+    }
+
+    #lx-splash-page .progress {
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+
+    #lx-splash-page.ng-hide-add,
+    #lx-splash-page.ng-hide-remove {
+        -moz-transition: 0.2s linear all;
+        -o-transition: 0.2s linear all;
+        -webkit-transition: 0.2s linear all;
+        transition: 0.2s linear all;
+
+        display: block !important;
+        opacity: 1;
+    }
+
+    #lx-splash-page.ng-hide {
+        opacity: 0;
+    }
+/*#endregion*/
