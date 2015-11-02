@@ -72,9 +72,12 @@
     <Content Include="app\config\config.js" />
     <Content Include="app\dashboard\dashboard.html" />
     <Content Include="app\layout\shell.html" />
+    <Content Include="app\layout\topNav.css" />
     <Content Include="app\layout\topNav.html" />
     <Content Include="app\layout\topNavController.js" />
     <Content Include="app\routes.js" />
+    <Content Include="app\themes\lx-dark-theme.css" />
+    <Content Include="app\themes\lx-light-theme.css" />
     <Content Include="Content\bootstrap-theme.css" />
     <Content Include="Content\bootstrap-theme.min.css" />
     <Content Include="Content\bootstrap.css" />
