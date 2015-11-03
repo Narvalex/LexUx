@@ -1,21 +1,4 @@
-﻿html, body {
-    background-color: #000;
-    color: white;
-}
-
-/*#region Splash page*/
-
-#lx-splash-page {
-    background-color: #000;
-}
-
-    #lx-splash-page .lx-splash-message {
-        color: #337ab7;
-    }
-
-/*#endregion*/
-
-/*#region Narbar themming */
+﻿/*#region Top Nav themming */
 
 .navbar-default {
     background-color: #222;

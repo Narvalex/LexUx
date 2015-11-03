@@ -1,0 +1,16 @@
+﻿html {
+    background-color: #fff;
+    color: black;
+}
+
+/*#region Splash page*/
+
+#lx-splash-page {
+    background-color: #fff;
+}
+
+    #lx-splash-page .lx-splash-message {
+        color: #337ab7;
+    }
+
+/*#endregion*/

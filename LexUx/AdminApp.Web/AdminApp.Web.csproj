@@ -76,8 +76,9 @@
     <Content Include="app\layout\topNav.html" />
     <Content Include="app\layout\topNavController.js" />
     <Content Include="app\routes.js" />
-    <Content Include="app\themes\lx-dark-theme.css" />
-    <Content Include="app\themes\lx-light-theme.css" />
+    <Content Include="app\themes\theme-dark.css" />
+    <Content Include="app\themes\top-nav-dark.css" />
+    <Content Include="app\themes\theme-light.css" />
     <Content Include="Content\bootstrap-theme.css" />
     <Content Include="Content\bootstrap-theme.min.css" />
     <Content Include="Content\bootstrap.css" />
