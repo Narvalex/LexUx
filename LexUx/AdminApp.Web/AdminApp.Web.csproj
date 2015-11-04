@@ -69,12 +69,17 @@
     <Content Include="app\about\about.html" />
     <Content Include="app\app.css" />
     <Content Include="app\app.js" />
+    <Content Include="app\bus.js" />
     <Content Include="app\config\config.js" />
     <Content Include="app\dashboard\dashboard.html" />
     <Content Include="app\layout\shell.html" />
+    <Content Include="app\layout\shellController.js" />
     <Content Include="app\layout\topNav.css" />
     <Content Include="app\layout\topNav.html" />
     <Content Include="app\layout\topNavController.js" />
+    <Content Include="app\login\login.css" />
+    <Content Include="app\login\login.html" />
+    <Content Include="app\login\loginController.js" />
     <Content Include="app\routes.js" />
     <Content Include="app\themes\theme-dark.css" />
     <Content Include="app\themes\top-nav-dark.css" />

@@ -4,8 +4,7 @@
     angular.module('app').controller('topNavController',
         ['$rootScope', '$scope', '$timeout', topNavController]);
 
-    function topNavController($rootScope, $scope, $timeout) {
-        var root = $rootScope;
+    function topNavController($scope, $timeout) {
         var vm = $scope;
 
         vm.collapsed = true;
@@ -16,7 +15,7 @@
         activate();
 
         function activate() {
-            root.showSplashPage = false;
+
         }
 
         function onCollapseButtonClicked() {
