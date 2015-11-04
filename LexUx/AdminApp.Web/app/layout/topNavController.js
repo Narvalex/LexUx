@@ -2,7 +2,7 @@
     'use strict';
 
     angular.module('app').controller('topNavController',
-        ['$rootScope', '$scope', '$timeout', topNavController]);
+        ['$scope', '$timeout', topNavController]);
 
     function topNavController($scope, $timeout) {
         var vm = $scope;

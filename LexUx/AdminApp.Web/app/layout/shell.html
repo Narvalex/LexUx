@@ -4,6 +4,9 @@
             <div ng-include="'app/layout/topNav.html'"></div>
             <div ng-view class="lx-shuffle-animation"></div>
         </div>
+        <div ng-switch-when="registrarse" class="lx-fade-animation">
+            <div ng-include="'app/login/registrarse.html'"></div>
+        </div>
         <div ng-switch-default class="lx-fade-animation">
             <div ng-include="'app/login/login.html'"></div>
         </div>

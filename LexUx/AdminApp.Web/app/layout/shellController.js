@@ -19,5 +19,9 @@
         vm.$on('login.ingresarComoInvitado', function () {
             vm.loginStatus = 'loggedIn';
         });
+
+        vm.$on('login.registrarse', function () {
+            vm.loginStatus = 'registrarse';
+        });
     }
 })();
