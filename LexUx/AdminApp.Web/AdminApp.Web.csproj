@@ -96,6 +96,8 @@
     <Content Include="app\layout\topNavController.js" />
     <Content Include="app\login\login.css" />
     <Content Include="app\login\login.html" />
+    <Content Include="app\login\loginApi.js" />
+    <Content Include="app\login\registrarseController.js" />
     <Content Include="app\login\loginController.js" />
     <Content Include="app\login\registrarse.html" />
     <Content Include="app\routes.js" />
